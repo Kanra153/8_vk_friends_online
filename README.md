@@ -16,7 +16,7 @@ Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclop
 ```
 $vk_friends_online.py
 Please, input your login: your_vk_login
-Please, input your password: your_vk_pass (password won't be echoed)
+Please, input your password: your_vk_pass #(password won't be echoed)
 Your friends online:
 Павел Дуров
 
