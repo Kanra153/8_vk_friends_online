@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-If you want to see, who of your friends is online in VK, but you don't want to use VK (for some reason) this script will help you! To use this script you need to authorize via your VK login and password. 
+If you want to see which friend of yours is online on VK, but you don't want to go online yourself for some reason, this script will help you! To use this script you need to authorize via your VK login and password.
 
 # How to Install
 
