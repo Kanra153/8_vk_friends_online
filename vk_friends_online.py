@@ -22,15 +22,14 @@ def get_online_friends(login, password):
         scope='friends'
     )
     api = vk.API(session)
-    friends_online = []
-    for friend in api.friends.getOnline():
-        friends_online.append(api.users.get(user_id=friend))
+    friends_id = api.friends.getOnline()
+    friends_online = api.users.get(user_ids=friends_id)
     return friends_online
 
 
 def output_friends_to_console(friends_online):
-    for friend in friends_online:
-        print(friend[0]['first_name'], friend[0]['last_name'])
+     for friend in friends_online:
+         print(friend['first_name'], friend['last_name'])
 
 if __name__ == '__main__':
     login = get_user_login()
